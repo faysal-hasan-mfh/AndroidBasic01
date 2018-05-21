@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 public class BaseActivity extends AppCompatActivity {
-    private static final String TEST = "TEST";
+    public static final String TEST = "TEST";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
