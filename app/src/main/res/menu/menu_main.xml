@@ -6,15 +6,17 @@
 
     <item
         android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_settings_black_24dp"
         android:orderInCategory="300"
         android:title="User"
-        android:icon="@drawable/ic_launcher_background"
         app:showAsAction="ifRoom">
-        <menu >
-            <group android:id="@+id/group2" android:checkableBehavior="single">
-                <item android:id="@+id/submenu1" android:title="SubMenu No. 1" />
-                <item android:id="@+id/submenu2" android:title="SubMenu No. 2" />
-            </group>
+        <menu>
+            <item
+                android:id="@+id/submenu1"
+                android:title="SubMenu No. 1" />
+            <item
+                android:id="@+id/submenu2"
+                android:title="SubMenu No. 2" />
         </menu>
     </item>
 
